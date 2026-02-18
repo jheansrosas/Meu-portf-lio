@@ -3,66 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Jhean</title>
+    <title>Portfólio - jhean</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Tailwind -->
-     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
-<body class="bg-gray-900 text-white">
-
-    <header class="bg-gray-800 border-b border-gray-700 py-6 mb-10">
-        <div class="container text-center">
-            <h1 class="text-center mt-5 text-4x1 font-bold">Portifólio do Jhean</h1>
-            <p class="text-gray-300 mt-2">Desenvolverdor Front-end • Projetos & Experimentos</p>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfólio do Jhean</h1>
+            <p>Desenvolvedor Front-end .  Projetos & Experimentos</p>
         </div>
     </header>
 
-    <section id="sobre" class="py-12"> 
-        <div class="container">
-            <h2 class="text-3xl font-bold text-blue-400 mb-6">Sobre Mim</h2>
-            <p class="text-gray-300 leading-relaxed">
-                Olá! Meu nome é Jhean e estou construindo minha jornada como desenvolvedor Front-end. 
-                Estudo diariamente HTML, CSS, JavaScript e tecnologias modernas para criar interfaces funcionais, rápidas e bem organizadas.
-                Aqui você encontra meus projetos, aprendizados e tudo o que venho evoluindo ao longo do caminho.
-            </p>
-        </div>
-    </section>
+    <main>
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou estudante de Ciência da Computação com foco em desenvolvimento Front-end. Desenvolvo projetos utilizando HTML, CSS e JavaScript, sempre buscando organização, boas práticas e evolução constante. <br><br> Atualmente estou construindo meu portfólio para aplicar meus conhecimentos em projetos reais e iniciar minha carreira na área de tecnologia.
+                </p>
+            </div>
+        </section>
 
-    <section id="projetos" class="py-12 bg-gray-800 border-y border-gray-700">
-        <div class="container">
-            <h2 class="text-3xl font-bold text-blue-400 mb-8">Projetos Recentes</h2>
-            <p class="text-gray-300">
-                Aqui estão alguns dos meus projetos publicados. <br>
-                Em breve, esta seção receberá cards individuais com link para GitHub e deploy.
-            </p>
+        <section id="formacao">
+            <div class="container">
+                <h2>Formação</h2>
+                <p>Ciência da Computação</p>
+                <p>Estácio - 2025 . Atual</p>
+            </div>
+        </section>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10" id="lista-projetos">
-                <div class="bg-gray-900 rounded-lg shadow-lg p-5 border border-gray-700">
-                    <img src="" alt="" class="w-full h-40 object-cover rounded-mb mb-4">
+        <section id="habilidades">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="habilidades-grid">
+                    <div class="habilidade-item">HTML</div>
+                    <div class="habilidade-item">CSS</div>
+                    <div class="habilidade-item">JavaScript</div>
+                    <div class="habilidade-item">Python básico</div>
+                    <div class="habilidade-item">Banco de dados básico</div>
+                </div>
+            </div>
+        </section>
 
-                    <h3 class="text-blue-400 text-xl font-bold mb-2">Meu primeiro Projeto</h3>
-
-                    <p class="text-gray-300 text-sm mb-4">
-                        Este é um projeto demonstrativo do meu portifólio.
-                        Aqui irei adicionar uma breve descrição do que foi feito, quais tecnologias usei e o objetivo do projeto.
-                    </p>
-
-                    <div class="flex gap-3">
-                        <a href="#" target="_blank" class="bg-blue-500 hover:bg-blue-600 text-white px-3 py-2 rounded-md text-sm font-semibold">
-                            Ver Online
-                        </a>
-
-                        <a href="#" target="_blank" class="bg-gray-700 hover:bg-gray-600 text-white px-3 py-2 rounded-md text-sm font-semibold">
-                            Ver Código
-                        </a>
+        <section id="projetos">
+            <div class="container">
+                <h2>Meus projetos</h2>
+                <div class="projetos-grid">
+                    <div class="projeto-card">
+                        <h3>Nome do projeto</h3>
+                        <p>Descrição</p>
+                        <button>Ver projeto</button>
+                    </div>
+                    <div class="projeto-card">
+                        <h3>Nome do projeto</h3>
+                        <p>Descrição</p>
+                        <button>Ver projeto</button>
                     </div>
                 </div>
             </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jhean - Desenvolvedor Front-end</p>
         </div>
-    </section>
-    
-    
+    </footer>
 </body>
 </html>
